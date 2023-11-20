@@ -4,7 +4,7 @@ const element = document.getElementById('search_button')
 const message1 = document.getElementById('paragraph-location')
 const message2 = document.getElementById('paragraph-temperature')
 
-
+console.log('test')
 
 
 element.addEventListener('click', (e) => {
@@ -18,4 +18,4 @@ element.addEventListener('click', (e) => {
         message2.textContent = data.temperature
     })    
 })
-})
+})  
